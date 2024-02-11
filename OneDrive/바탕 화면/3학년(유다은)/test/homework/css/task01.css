@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: rgb(39, 85, 87);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul,
+.taskList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 14px 16px;
+  display: inline-block;
+}
+
+nav ul li a.active {
+  border-bottom: 1px solid white;
+  margin: 20px;
+}
+
+main {
+  width: 60%;
+  margin: 20px auto;
+  padding: 0 20px;
+  background-color: whitesmoke;
+  border: none;
+  box-shadow: 1px 1px 10px 1px gray;
+  height: 100%;
+  border-radius: 6px;
+}
+
+main h2 {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+}
+#taskList {
+  list-style-type: none;
+}
+
+#taskList li {
+  text-decoration: none;
+  border-bottom: 1px solid gray;
+  margin: 4px;
+  align-items: center;
+}
+#taskList input {
+  margin: 6px;
+}
+#taskList button {
+  display: block;
+  float: right;
+}
+
+.container {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
